@@ -1,0 +1,116 @@
+*{margin:0;padding:0;outline:0}
+body{font-family:arial; font-size:14 px; line-height:18 px;color:black;background:url(Image/bg.png)repeat fixed 0 0; }
+.temp{width: 970px;background: #21262A; margin:0 auto;border-left: 2px solid #085660;border-right: 2px solid #085660;}
+.clear{overflow:hidden;}
+
+.Headersec{background: #085660; color:white;}
+
+.logo {
+  float: left;
+}
+.logo img {
+  padding: 5px 24px;
+  width: 482px;
+}
+.Social{
+	padding-top: 27px;
+	padding-right: 10px;
+}
+.Social a{}
+.Social img {
+  float: right;
+  width: 56px;
+}
+
+
+.Nevsec{background:#023036;color:white}
+
+.Nevsec ul{margin:0;padding:0;list-style:none;}
+
+.Nevsec ul li {
+  display: block;
+  float: left;
+  margin: 10px 4px;
+}
+
+.Nevsec ul li a {
+  background: #085660;
+  color: white;
+  padding: 4px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.Nevsec ul li a:hover{background:black; color:white;}
+#active{background:red; color:white;}
+
+
+.Contentsec{padding-top:5px;}
+
+
+
+
+
+
+.Type{margin:10px;}
+.Type ul {padding:0;margin:0;list-style:none;text-align:center;}
+.Type ul li {
+	display:inline-block;
+}
+.Type ul li a {
+  background: #085660;
+  color: white;
+  display: block;
+  padding: 5px 18px;
+  text-decoration: none;
+  margin:0px 5px;
+}
+.Type ul li a:hover{background:black;color:white;}
+
+.postport {
+  border: 2px solid white;
+  margin: -2px;
+}
+.postport a{}
+
+.postport a img {
+  border: 2px solid white;
+  margin: 10px;
+  width: 459px;
+}
+
+
+
+
+.next{}
+.next ul{
+	padding:0;margin:0;list-style:none;text-align:center;
+}
+.next ul li{
+	display:inline-block;
+}
+.next ul li a {
+  color: white;
+  display: block;
+  margin-bottom: 8px;
+  padding: 5px 14px;
+}
+.next ul li a:hover{color:black;}
+
+
+
+.Footersec{height:50px;background:#085660;text-align:center;padding:10px 0px;}
+.Footersec p{color:white;}
+}
+.options{}
+.options ul{padding:0;margin:0; list-style:none;text-align:center;}
+.options ul li{
+	display:inline-block
+}
+.options ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:5px;
+	}
+.options ul li a:hover{color:black;}

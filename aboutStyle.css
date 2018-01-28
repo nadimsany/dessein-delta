@@ -1,0 +1,114 @@
+*{margin:0;padding:0;outline:0}
+body{font-family:arial; font-size:14 px; line-height:18 px;color:black;background:url(Image/bg.png)repeat fixed 0 0; }
+
+.temp{width: 970px; background: #21262A; margin:0 auto;border-left: 2px solid #085660;border-right: 2px solid #085660;}
+.clear{overflow:hidden;}
+
+
+
+
+.Headersec{background: #085660; color:white;}
+
+
+
+.logo {
+  float: left;
+}
+.logo img {
+  padding: 5px 24px;
+  width: 482px;
+}
+.Social{
+	padding-top: 27px;
+	padding-right: 10px;
+}
+.Social a{}
+.Social img {
+  float: right;
+  width: 56px;
+}
+
+
+.Nevsec{background:#023036;color:white}
+.active{
+	background:red;
+}
+.Nevsec ul{margin:0;padding:0;list-style:none;}
+
+.Nevsec ul li {
+  display: block;
+  float: left;
+  margin: 10px 4px;
+}
+
+.Nevsec ul li a {
+  background: #085660;
+  color: white;
+  padding: 4px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.Nevsec ul li a:hover{background:black; color:white;}
+
+#active{background:red; color:white;}
+
+
+.Contentsec{padding-top:5px;background:white;}
+
+.about{
+	margin:10px;
+}
+.about img{
+	width:300px;
+	display:block;
+	margin-right:10px;
+	border:3px solid white;
+	float:left;
+}
+.about p {
+  font-family: Georgia;
+  font-size: 20px;
+  margin-right: 5px;
+  text-align: justify;
+}
+
+.Designers{
+	background:white;
+}
+.Designers h1{
+	margin:15px;
+	margin-bottom:0px;
+	text-align:center;
+}
+
+table ,td,th{
+	border:1px solid black;
+	border-collapse:collapse;
+	padding:10px;
+}
+table{
+	margin: 15px;
+	text-align:center;
+	width:97%;
+}
+
+
+
+.Footersec{height:50px;background:#085660;text-align:center;padding:10px 0px;}
+.Footersec p{color:white;}
+}
+.options{}
+.options ul{padding:0;margin:0; list-style:none;text-align:center;}
+.options ul li{
+	display:inline-block
+}
+.options ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:5px;
+	}
+.options ul li a:hover{color:black;}

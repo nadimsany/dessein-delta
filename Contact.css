@@ -1,0 +1,149 @@
+*{margin:0;padding:0;outline:0}
+body{font-family:arial; font-size:14 px; line-height:18 px;color:black;background:url(Image/bg.png)repeat fixed 0 0; }
+
+.temp{width: 970px;background: #21262A; margin:0 auto;border-left: 2px solid #085660;border-right: 2px solid #085660;}
+.clear{overflow:hidden;}
+
+.Headersec{background: #085660; color:white;}
+
+.logo {
+  float: left;
+}
+.logo img {
+  padding: 5px 24px;
+  width: 482px;
+}
+.Social{
+	padding-top: 27px;
+	padding-right: 10px;
+}
+.Social a{}
+.Social img {
+  float: right;
+  width: 56px;
+}
+
+
+.Nevsec{background:#023036;color:white}
+
+.Nevsec ul{margin:0;padding:0;list-style:none;}
+
+.Nevsec ul li {
+  display: block;
+  float: left;
+  margin: 10px 4px;
+}
+
+.Nevsec ul li a {
+  background: #085660;
+  color: white;
+  padding: 4px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.Nevsec ul li a:hover{background:black; color:white;}
+#active{background:red; color:white;}
+
+
+.Contentsec{
+	padding:15px 0px;
+	background:white;
+	}
+
+.Order {
+  float: left;
+  width: 478px;
+  border-right:3px solid black;
+  margin-bottom:10px;
+}
+.Order h1 {
+  background: #085660;
+  color: white;
+  margin: 9px 29px;
+  text-align: center;
+}
+
+form {
+  border: 1px solid black;
+  color: black;
+  margin:0px auto;;
+  padding: 0px 52px;
+  width: 310px;
+  background:white;
+}
+input[type="Text"],select{
+	width:300px;
+	padding:5px;
+	margin: 10px 0px;
+	background:white;
+	box-sizing: border-box;
+	border:1px solid black;
+	cursor: pointer;
+	
+}
+textarea {    
+   margin:10px 0px;
+   border:1px solid black;
+}
+
+input[type="Submit"] {
+  background: none repeat scroll 0 0 green;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 12px 92px;
+  padding: 5px 26px;
+  text-align: center;
+}
+.RightSec {
+  float: right;
+  padding-right: 38px;
+}
+.Sidebar{
+	margin-top:7px;
+	margin-bottom:0px;
+	text-align:center;
+	color:black;
+	margin-bottom:10px;
+}
+.Sidebar h1{
+	background:#085660;
+	color:white;
+	padding:5 px 0px;
+}
+table, th, td {
+  border-collapse: collapse;
+  padding: 9px 44px;
+}
+table{
+	margin:10px 0px;
+}
+.Loc {
+  border: 1px solid black;
+
+}
+.Loc h1 {
+	border-bottom:1px solid black;
+	text-align:center;
+	background:#085660;
+	  color:white;;
+}
+
+
+
+.Footersec{height:50px;background:#085660;text-align:center;padding:10px 0px;}
+.Footersec p{color:white;}
+}
+.options{}
+.options ul{padding:0;margin:0; list-style:none;text-align:center;}
+.options ul li{
+	display:inline-block
+}
+.options ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:5px;
+	}
+.options ul li a:hover{color:black;}
