@@ -1,5 +1,10 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
 *{margin:0;padding:0;outline:0}
 body{font-family:arial; font-size:14 px; line-height:18 px;color:black;background:url(Image/bg.png)repeat fixed 0 0; }
+
 
 .temp{width: 970px;background: #21262A; margin:0 auto;border-left: 2px solid #085660;border-right: 2px solid #085660;}
 .clear{overflow:hidden;}
